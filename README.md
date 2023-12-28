@@ -8,16 +8,14 @@ talker側で0.5秒につき１ずつ増加していく,0からの整数を送信
 listener側でそれを受信し,ターミナル上に表示する.
 
 
-## 必要なソフトウェア
+## 必要なソフトウェア/テスト環境
 * Python
-テスト済み:22.04
+* Ubuntu22.04.2LTS
+* ROS2 Humble
 
 ### 利用コンテナ
 Ubuntu22.04LTSにROS2があらかじめセットアップされている以下のコンテナを使用している.
 https://hub.docker.com/repository/docker/ryuichiueda/ubuntu22.04-ros2
-
-## テスト環境
-* Ubuntu22.04.2LTS
 
 ### 利用方法
 #### 1.本リポジトリを使用ディレクトリにクローン.
