@@ -15,8 +15,8 @@ setup(
     zip_safe=True,
     maintainer='ryokozuka',
     maintainer_email='ryokozu.fm710@sf7.so-net.ne.jp',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='a package for practice',
+    license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
