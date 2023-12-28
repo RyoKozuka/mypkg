@@ -16,10 +16,11 @@ setup(
     maintainer='ryokozuka',
     maintainer_email='ryokozu.fm710@sf7.so-net.ne.jp',
     description='a package for practice',
-    license='BSD-3-Clause',
+    license='BSD-3-Claus',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'talker = mypkg.talker:main',
         ],
     },
 )
