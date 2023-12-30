@@ -1,3 +1,6 @@
+#SPDX-FileCopyrightText: 2023 Ryo Kozuka ryokozu.fm710@sf7.so-net.ne.jp
+#SPDX-License-Identifier: BSD-3-Clause
+
 import launch
 import launch.actions
 import launch.substitutions
